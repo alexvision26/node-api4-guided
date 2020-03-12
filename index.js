@@ -1,3 +1,5 @@
+require("dotenv").config(); // read from a .env file located at the root folder
+
 const server = require("./api/server.js");
 
 // server will place the .PORT environment value on their server
